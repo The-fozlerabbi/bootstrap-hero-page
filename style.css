@@ -1,0 +1,52 @@
+#hero{
+    background: url(./assest/2caae017a61202f87bc36fab57e85a63\ \(1\).png) rgba(0, 0, 0,0.7);
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+.subtitle{
+    color: #f4cb08;
+  
+}
+.title{
+    font-size: 48px;
+    font-weight: 400;
+    position: relative;
+}
+.title::after {
+	position: absolute;
+	content: '';
+	width: 100px;
+	height: 2px;
+	background-color: #f4cb08;
+	left: 0;
+	top: 80px;
+}
+.details {
+	
+	padding-right: 260px;
+	padding-top: 40px;
+}
+
+.portfolio{
+  background: #f4cb08;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 30px;
+  
+}
+.portfolio:hover{
+    background: #dcb707;
+}
+.about{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 30px;
+    border: 2px solid white;
+    margin-left: 30px;
+}
+.about:hover{
+    background: white;
+    color: black !important;
+}
